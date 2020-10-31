@@ -9,12 +9,12 @@
 <body>
    <h1 class="text-center mt-5">ADMINISTRACIÓN DE PRODUCTOR</h1> 
 
-   <div class="container mt-5">
-        <form class="text-center" action="" method="POST" >
+    <div class="container mt-5">
+        <form class="text-center" action="registrarProducto.php" method="POST" >
             <div class="form-row justify-content-center">
                 <div class="col-sm-6 col-md-3 mb-3">
                 <label >Nombre del Producto</label>
-                <input type="text" class="form-control"  placeholder="Chocolate" name="nombreproducto" required>
+                <input type="text" class="form-control"  placeholder="Chocolate" name="nombreProducto" required>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-3">
                 <label>Marca del producto</label>
@@ -34,7 +34,7 @@
             
             <button class="btn btn-primary" type="submit" name="registrar">Registrar</button>
         </form>
-     </div>
+    </div>
 
    
 
