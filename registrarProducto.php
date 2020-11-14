@@ -8,10 +8,11 @@ if(isset($_POST["registrar"])){
     $marca = $_POST["marcaProducto"];
     $precio = $_POST["precio"];
     $descripcion = $_POST["descripcion"];
+    $foto = $_POST["foto"];
 
     $transaccion = new BaseDatos();
 
-    $consultaSQL = "INSERT INTO producto(nombreProducto, marcaProducto, precioProducto, descripcionProducto) VALUES ('$nombre', '$marca', '$precio', '$descripcion')";
+    $consultaSQL = "INSERT INTO producto(nombreProducto, marcaProducto, precioProducto, descripcionProducto, imagenProducto) VALUES ('$nombre', '$marca', '$precio', '$descripcion', '$foto')";
 
     $transaccion->agregarDatos($consultaSQL);
 
