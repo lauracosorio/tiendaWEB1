@@ -9,5 +9,5 @@ $consultaSQL = "DELETE FROM producto WHERE idProducto='$idEliminar'";
 
 $transaccion->eliminarDatos($consultaSQL);
 
-header("location:index.php");
+header("location:listarProductos.php");
 ?>
