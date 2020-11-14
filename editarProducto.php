@@ -13,7 +13,7 @@ if (isset($_POST["botonEditar"])) {
     $descripcion = $_POST["descripcion"];
     $foto = $_POST["foto"];
 
-    $consultaSQL = "UPDATE producto SET nombreProducto='$nombre', marcaProducto='$marca', precioProducto='$precio', descripcionProducto='$descripcion', imagenProducto='$foto' ";
+    $consultaSQL = "UPDATE producto SET nombreProducto='$nombre', marcaProducto='$marca', precioProducto='$precio', descripcionProducto='$descripcion', imagenProducto='$foto' WHERE idProducto='$id'";
 
     $transaccion->editarDatos($consultaSQL);
 
