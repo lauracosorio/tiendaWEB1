@@ -1,0 +1,45 @@
+body {
+    background-color: #FFE0B2 !important;
+}
+
+.navbar{
+    background-color: #FF9800;
+}
+.input {
+    border: 2px solid rgb(37, 36, 36);
+    border-radius: 25px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    
+    padding: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.479) ;
+    outline: none;
+    display: block;
+    margin: auto;
+  }
+
+  /*Color de la letra del buscador*/
+::placeholder {
+    color: rgb(37, 36, 36)!important;
+  }
+
+  .input:focus{
+    outline: none;
+    color: black;
+    outline-width: 0 !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.445) ;
+  }
+
+  .btn{
+      background-color: rgb(0, 140, #F57C00) ;
+  }
+
+  .alerta {
+    background-color: #FFE0B2;
+  }
+
+  .titulo {
+    background-color: rgb(0, 140, #F57C00) ;
+  }
