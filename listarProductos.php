@@ -56,7 +56,7 @@
                     <div class="card input">
                         <img src="
                                 <?php echo($producto["imagenProducto"]) ?>
-                            " alt=" <?php echo($producto["nombreProducto"]) ?>" />
+                            " alt=" <?php echo($producto["nombreProducto"]) ?>" class="imagen" />
                         <div class="card-body">
                             <h3 class="card-title">
                                 <?php echo($producto["nombreProducto"]) ?>
