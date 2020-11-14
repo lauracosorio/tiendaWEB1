@@ -16,6 +16,8 @@ if(isset($_POST["registrar"])){
 
     $transaccion->agregarDatos($consultaSQL);
 
+    header("location:listarProductos.php");
+
 }
 
 ?>

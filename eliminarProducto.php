@@ -8,4 +8,6 @@ $transaccion = new BaseDatos();
 $consultaSQL = "DELETE FROM producto WHERE idProducto='$idEliminar'";
 
 $transaccion->eliminarDatos($consultaSQL);
+
+header("location:index.php");
 ?>

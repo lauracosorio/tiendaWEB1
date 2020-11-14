@@ -17,6 +17,8 @@ if (isset($_POST["botonEditar"])) {
 
     $transaccion->editarDatos($consultaSQL);
 
+    header("location:listarProductos.php");
+
 }
 
 

@@ -64,7 +64,7 @@
                                 <?php echo($producto["marcaProducto"]) ?>
                             </h4>
                             <p class="card-text">
-                                <?php echo($producto["precioProducto"]) ?>
+                                <?php echo($producto["precioProducto"].' $COP') ?>
                             </p>
                             <p class="card-text">
                                 <?php echo($producto["descripcionProducto"]) ?>
